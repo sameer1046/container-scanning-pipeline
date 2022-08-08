@@ -80,7 +80,7 @@ pipeline {
 
     }
         post {
-        always {
+        success {
             archiveArtifacts artifacts: 'output/*.txt', onlyIfSuccessful: true
         }
     }
