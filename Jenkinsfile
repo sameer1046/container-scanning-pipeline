@@ -25,7 +25,7 @@ pipeline {
         string(
             name: 'DOCKER_IMAGE',
             description: 'Docker Image to Scan',
-            defaultValue: 'ternd:latest'
+            defaultValue: 'debian:buster'
         )
     }
     stages {
